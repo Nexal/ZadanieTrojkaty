@@ -1,5 +1,3 @@
-import sys
-
 def getTriangleTypeFromLengths(a, b, c):
     if isinstance(a, int) is not True:
         raise TypeError(f"Value of 'a' equals {a} but must be an integer.")
